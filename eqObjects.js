@@ -44,9 +44,10 @@ const eqObjects = function(obj1, obj2) {
         //if the eqArrays function evaluates to false, we can end the function right here to return false
       }
     } else if (obj1[key] !== obj2[key]) {
-      //if the key value at the current loop is not an array but just a single key value, this will determine if the key value has identical values in both objects
+      //if the code reaches this else if statement, that means that the key value could be an array in just one of the objects or, that the key value is not an array in both objects,
+      //this will determine if key values are identical in both objects
       return false;
-      //if values stored in the key at the current loop don't match between both objects, we can end the function right here to return fasle
+      //if values stored in the key at the current loop don't match between both objects, we can end the function right here to return false
     }
   }
   return true; //if the above if-statements or tests fail, that means that both objects are equal and we can return true;
