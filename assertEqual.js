@@ -6,7 +6,5 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-console.log(assertEqual("word", "word"));
-console.log(assertEqual("Jaskarn", "Jasan"));
-console.log(assertEqual(5, 5));
-console.log(assertEqual(1, 5));
+module.exports = assertEqual;
+
