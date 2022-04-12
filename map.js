@@ -38,7 +38,7 @@ const map = function(array, callback) {
 };
 
 
-
+/*
 //Test Cases
 const testArray1 = ["batman", "vengeance", "gotham"];
 const testArray2 = [1, 2, 3, 4, 5, 6];
@@ -50,4 +50,5 @@ assertArrayEqual(map(testArray1, word => word[1]), ["a", "e", "o"]);
 assertArrayEqual(map(testArray2, num => num * 3), [3, 6, 9, 12, 15, 18]);
 assertArrayEqual(map(testArray3, num => num > 3), [true, true, true, false, false, false]);
 assertArrayEqual(map(testArray4, word => word.length), [10, 4]);
-
+*/
+module.exports = map;

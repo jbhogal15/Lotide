@@ -55,10 +55,12 @@ const assertArrayEqual = function(actual, expected) {
 //console.log(without(arr1, arr2));
 //console.log(without(arr3, arr4));
 //console.log(without(arr5, arr6));
-
+/*
 console.log(assertArrayEqual(without(arr1, arr2), [1, 2]));
 console.log(assertArrayEqual(without(arr3, arr4), ["1", "2"]));
 console.log(assertArrayEqual(without(arr5, arr6), [1, 2, 4,8]));
+*/
 
+module.exports = without;
 
 

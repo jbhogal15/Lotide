@@ -68,3 +68,5 @@ const assertObjectsEqual = function(actual, expected) {
 //console.log(assertObjectsEqual(ba, abc)); //failed
 //console.log(assertObjectsEqual(cd, dc)); //pass
 //console.log(assertObjectsEqual(dc, cd2)); //failed
+
+module.exports = assertObjectsEqual;

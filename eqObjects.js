@@ -56,7 +56,7 @@ const eqObjects = function(obj1, obj2) {
 
 
 
-
+/*
 const ab = { a: "1", b: "2"};
 const ba = { b: "2", a: "1"};
 const abc = { a: "1", b: "2", c: "3" };
@@ -77,4 +77,6 @@ console.log(assertEqual(eqObjects(ab, ba), true));
 console.log(assertEqual(eqObjects(ab, abc), false));
 console.log(assertEqual(eqObjects(cd, dc), true));
 console.log(assertEqual(eqObjects(cd, cd2), false));
+*/
 
+module.exports = eqObjects;

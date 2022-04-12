@@ -25,7 +25,7 @@ console.log(findKeyByValue(bestTVShowsByGenre, "The Expanse"));
 
 
 
-
+/*
 //Assert equal function
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
@@ -37,4 +37,7 @@ const assertEqual = function(actual, expected) {
 
 console.log(assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama"));
 console.log(assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined));
+*/
 
+
+module.exports = findKeyByValue;
