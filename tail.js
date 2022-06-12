@@ -19,4 +19,4 @@ module.exports = tail;
 //console.log(tail(arr));
 //console.log(assertEqual(arr.length, 6));
 
-console.log(tail([]));
+//console.log(tail([]));
