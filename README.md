@@ -34,6 +34,7 @@ The following functions are currently implemented:
 * `function6(eqArray)`: Takes in two arrays and returns true or false, based on a perfect match.
 * `function7(eqObjects)`: Takes in two objects and returns true or false, based on a perfect match.
 * `function8(findKey)`: Takes in an object and callback function; returns the frist key for which callback returns a truthy value. Returns undefined if no key is found.
+* `function9(flatten)`: Takes in a nested array, and returns a single flattend array.
 * `function9(findKeyByValue)`: Takes in an object and given value; returns the first key which contains the given value. If no key with given value; returns undefined.
 * `function10(head)`: Returns the first item in the array, returns undefined if an empty array.
 * `function11(letterPositions)`: Returns all the indices in the string where each letter or character is found in the inputted string. 
