@@ -1,11 +1,6 @@
 const eqArrays = require("./eqArray");
 
-
-
-
-
-
-// assertArrayEqual
+//assertArrayEqual
 const assertArrayEqual = function(arr1, arr2) {
   //If statement will allow to call the eqArray function on the parameters to check if it evaluated to true
   if (eqArrays(arr1, arr2)) {
@@ -17,5 +12,4 @@ const assertArrayEqual = function(arr1, arr2) {
 
 module.exports = assertArrayEqual;
 
-//console.log(assertArrayEqual([1, 2, 3], [1, 2, 3]));
 
